@@ -1,0 +1,173 @@
+body {
+    background-color: #f0e6e6; 
+}
+
+.name{
+    font-family: sans-serif;
+    font-weight: 600;
+    color: black;
+    font-size: 20px;
+}
+
+nav {
+    display: flex;
+    padding: 40px; 
+
+}
+
+.name a {
+    color: #000; 
+    text-decoration: none; 
+    font-weight: bold;
+    color: black;
+    font-size: small;
+    margin-left: 1000px; 
+}
+
+.name a:hover {
+    color: rgb(44, 5, 88); 
+    text-decoration: none
+}
+
+.location{
+    font-family: sans-serif;
+    font-weight: 600;
+    color: black;
+    font-size: 15px;
+    padding-top: 10px;
+    padding: 40px; 
+    
+}
+
+.container {
+    display: flex;
+    margin-top: -50px;
+ 
+  }
+  
+  .column {
+    display: flex;
+    flex: 1; /* This ensures each column takes up an equal amount of space within the container */ 
+    flex-direction: column; /*to restrict the column from creating additonal columns when I add classes*/
+
+    
+  }
+  
+  .column img {
+    width: 100%; /* This will make the image take up the full width of the column */
+    height: 50%; /* This will maintain the aspect ratio of the image */
+    object-fit: contain; /* This will ensure the image fits within the column without changing its size */
+    padding: 40px;
+  }
+
+.greeting {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 20%;
+    color: black;
+    font-size: 50px;
+    padding: 40px;
+}
+
+.intro {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 20%;
+    color: black;
+    font-size: 20px;
+    padding: 40px;
+    margin-top: -50px;
+}
+
+.link {
+    color: #000; 
+    text-decoration: none; 
+    font-weight: bold;
+    color: black;
+    font-size: small;
+    margin-top: -350px;
+}
+.link a {
+    color: #000; 
+    text-decoration: none; 
+    font-weight: bold;
+    color: black;
+    font-size: small;
+    padding: 40px;
+    margin-top: -150px;
+}
+
+.link a:hover {
+    color: rgb(44, 5, 88); 
+    text-decoration: none
+}
+
+
+
+.topic{
+    font-family: sans-serif;
+    font-weight: 600;
+    color: black;
+    font-size: 15px;
+    padding-top: 40px;
+    padding-bottom: 10px; /* reduce padding here */
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.topicstatement {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 20%;
+    color: black;
+    font-size: 18px;
+    padding-top: 10px; /* reduce padding here */
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: -20px; /* adjust as needed */
+    line-height: 25px;
+}
+.sign img {
+    width: 25%; /* This will make the image take up the full width of the column */
+    height: 38%; /* This will maintain the aspect ratio of the image */
+    object-fit: contain; /* This will ensure the image fits within the column without changing its size */
+    padding: 40px;
+    margin-top: -60px; /* adjust as needed */
+    padding-left: 10px;
+  }
+
+
+  .sign2 img {
+    width: 250px; /* This will make the image take up the full width of the column */
+    height: 300px; /* This will maintain the aspect ratio of the image */
+    align-items: center;
+    padding: 40px;
+  }
+
+  .topicstatement2 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 20%;
+    color: black;
+    font-size: 18px;
+    padding-top: 10px; /* reduce padding here */
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: -40px; /* adjust as needed */
+    line-height: 25px;
+}
+
+.greeting2 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 20%;
+    color: black;
+    font-size: 50px;
+    padding: 40px;
+    margin-top: -20px; /* adjust as needed */
+}
+
+.footer{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(31, 30, 30);
+    font-size: 18px;
+    padding: 40px; /* reduce padding here */
+    margin-top: 20px; /* adjust as needed */
+}
